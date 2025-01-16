@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box.active {
+    background-color: green;
+}
